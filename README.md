@@ -1,8 +1,7 @@
 # AI Todo List 🧠✅
 
-An AI-powered Todo List application that helps users create, organize, and plan tasks intelligently using natural language.
-
-The project combines a modern frontend with a **local AI model (LLM)** to provide privacy-first, cost-free AI task generation.
+An AI-powered Todo List application that helps users create, organize, and plan tasks using natural language.  
+The project uses a **local Large Language Model (LLM)** for privacy-first, cost-free AI task generation.
 
 ---
 
@@ -11,19 +10,20 @@ The project combines a modern frontend with a **local AI model (LLM)** to provid
 🔗 **Frontend (Deployed on Netlify):**  
 https://694b145257fa5019da56abdd--ai-todo-with-ai.netlify.app/
 
-> Note: The deployed version demonstrates the UI and logic.  
-> AI functionality works when the backend is run locally.
+> ⚠️ Note:  
+> The deployed version demonstrates the UI and logic.  
+> AI features work when the backend is run locally using Ollama.
 
 ---
 
 ## 🚀 Features
 
-- ➕ Add and delete todo items
-- 🤖 AI-generated tasks from natural language prompts
-- 📋 Multi-task and schedule planning (days, weeks, months)
-- 🎨 Modern, responsive, card-based UI
-- 🔒 No database, no login, no user data storage
-- 🖥️ Local AI inference (privacy-first)
+- Add and delete todo items
+- Generate tasks using AI prompts
+- Create multi-day, weekly, or long-term plans
+- Modern, responsive card-based UI
+- No database, no authentication
+- Local AI inference for privacy and zero API cost
 
 ---
 
@@ -31,8 +31,8 @@ https://694b145257fa5019da56abdd--ai-todo-with-ai.netlify.app/
 
 - **Frontend:** HTML, CSS, JavaScript  
 - **Backend:** Node.js, Express  
-- **AI / LLM:** Ollama (Local Large Language Model)  
-- **Model Used:** `gemma3:4b` (configurable)
+- **AI / LLM:** Ollama (Local LLM)  
+- **Model:** `gemma3:4b`
 
 ---
 
@@ -46,8 +46,6 @@ ai-todo-with-ai/
 ├── package.json
 └── README.md
 
-yaml
-Copy code
 
 ---
 
@@ -56,20 +54,22 @@ Copy code
 ### 1️⃣ Install dependencies
 ```bash
 npm install
-2️⃣ Start the AI backend
-Make sure Ollama is installed.
+  
+### 2️⃣ Start the AI backend
 
-bash
-Copy code
-ollama run gemma3:4b
-node server.js
-3️⃣ Open the frontend
+Make sure Ollama is installed and running.
+
+### 3️⃣ Open the frontend
+
 Open index.html in your browser.
 
-🤖 AI Integration Details
-This project uses a local AI model via Ollama instead of cloud APIs.
 
-How it works:
+🤖 AI Integration Details
+
+This project uses a local AI model via Ollama instead of cloud-based APIs.
+
+How it works
+
 User enters a natural language prompt
 
 Backend sends the prompt to the local LLM
@@ -79,23 +79,26 @@ AI converts the request into structured todo items
 Todos are automatically added to the UI
 
 Why local AI?
-✅ No API costs
 
-✅ Full privacy
+No API keys required
 
-✅ Works offline
+No usage cost
 
-✅ No external dependencies
+Full data privacy
+
+Works offline
 
 🌐 Deployment
+
 Frontend: Deployed on Netlify
 🔗 https://694b145257fa5019da56abdd--ai-todo-with-ai.netlify.app/
 
 Backend (AI): Runs locally using Node.js and Ollama
 
-AI features are intentionally kept local to demonstrate privacy-first architecture.
+AI is intentionally kept local to demonstrate a privacy-first architecture.
 
-📌 Use Cases
+## 📌 Use Cases
+
 Daily task management
 
 Workout or study schedules
@@ -103,4 +106,3 @@ Workout or study schedules
 Long-term planning (days, weeks, months)
 
 AI-assisted productivity workflows
-
