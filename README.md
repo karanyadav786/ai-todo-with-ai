@@ -71,7 +71,7 @@ Open index.html in your browser.
 AI Integration Details
 This project uses a local AI model via Ollama instead of cloud-based AI APIs.
 
-How it works
+# How it works
 The user enters a natural language prompt
 
 The backend sends the prompt to the local LLM
@@ -80,7 +80,7 @@ The AI converts the request into structured todo items
 
 Generated todos are automatically added to the UI
 
-Why local AI
+# Why local AI
 No API keys required
 
 No usage cost
@@ -89,14 +89,14 @@ Full data privacy
 
 Works offline
 
-Deployment
+# Deployment
 Frontend is deployed using Netlify
 
 Backend (AI server) runs locally using Node.js and Ollama
 
 Because Ollama runs locally, AI features are intentionally not enabled in the public deployment.
 
-Use Cases
+# Use Cases
 Daily task management
 
 Workout or study schedules
