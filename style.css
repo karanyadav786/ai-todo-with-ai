@@ -1,0 +1,147 @@
+body {
+    margin: 0;
+    font-family: "Segoe UI", sans-serif;
+    background: linear-gradient(135deg, white, #fed7aa);
+}
+
+/* HEADER */
+.top-bar {
+    padding: 15px;
+    background: rgb(152, 122, 152);
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+
+/* LAYOUT */
+.wrapper {
+    display: flex;
+    justify-content: center;
+    gap: 80px;              /* MORE SPACE BETWEEN BOXES */
+    padding: 80px 120px;   /* SPACE FROM BROWSER EDGES */
+    flex-wrap: wrap;
+}
+
+
+/* CARD */
+.todo-card {
+    background: linear-gradient(145deg, #1f1f1f, #111);
+    border: 7px solid rgb(152, 122, 152);
+    border-radius: 18px;
+
+    width: 460px;          /* INCREASE WIDTH */
+    min-height: 620px;     /* INCREASE HEIGHT */
+
+    padding: 32px;         /* MORE INNER SPACE */
+    color: white;
+
+    box-shadow: 
+        0 0 30px rgb(152, 122, 152),
+        0 20px 60px rgba(0, 0, 0, 0.2);
+}
+
+
+.todo-card h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.todo-card h3 {
+    text-align: center;
+    margin: 15px 0;
+}
+
+/* INPUT */
+.input-row {
+    display: flex;
+    gap: 10px;
+}
+
+input {
+    flex: 1;
+    padding: 10px;
+    border-radius: 6px;
+    border: none;
+}
+
+button {
+    background: rgb(152, 122, 152);
+    border: none;
+    padding: 10px 14px;
+    border-radius: 6px;
+    color: white;
+    cursor: pointer;
+}
+
+/* TODO LIST */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    background: #1c1c1c;
+    border: 1px solid #374151;
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.todo-left {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+li.completed span {
+    text-decoration: line-through;
+    color: gray;
+}
+
+/* DELETE */
+.delete-btn {
+    background: transparent;
+    border: none;
+    color: #ef4444;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+/* STATUS */
+.status {
+    margin-top: 15px;
+    text-align: center;
+    color: #93c5fd;
+}
+
+/* AI */
+.ai-card {
+    min-height: 720px;     /* AI NEEDS MORE HEIGHT */
+    display: flex;
+    flex-direction: column;
+}
+
+
+.assistant-body {
+    flex: 1;
+    overflow-y: auto;
+    margin-bottom: 10px;
+}
+
+.user-msg {
+    background: rgb(152, 122, 152);
+    padding: 8px 10px;
+    border-radius: 8px;
+    margin-bottom: 8px;
+    align-self: flex-end;
+}
+
+.bot-msg {
+    background: #1c1c1c;
+    padding: 8px 10px;
+    border-radius: 8px;
+    margin-bottom: 8px;
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>iTodo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+<header class="top-bar"> AI Integrated with To Do List</header>
+
+<div class="wrapper">
+    <!-- TODO CARD -->
+    <div class="todo-card">
+        <h1>To Do List</h1>
+
+        <div class="input-row">
+            <input type="text" id="todoInput" placeholder="Add a new task">
+            <button id="addBtn">Add</button>
+        </div>
+
+        <h3>Task List</h3>
+
+        <ul id="todoList"></ul>
+
+        <div class="status" id="statusText">
+            Completed: 0 | Uncompleted: 0
+        </div>
+    </div>
+
+    <!-- AI CARD -->
+    <div class="todo-card ai-card">
+        <h1>AI Assistant</h1>
+
+        <div class="assistant-body" id="chatBody">
+            <div class="bot-msg">Need any help?</div>
+        </div>
+
+        <div class="input-row">
+            <input type="text" id="chatInput" placeholder="Ask AI...">
+            <button id="sendBtn">➤</button>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+<script src="script.js"></script>
+</body>
+</html>
