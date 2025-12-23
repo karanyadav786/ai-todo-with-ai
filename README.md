@@ -71,6 +71,8 @@ Open index.html in your browser.
 AI Integration Details
 This project uses a local AI model via Ollama instead of cloud-based AI APIs.
 
+```bash
+
 # How it works
 The user enters a natural language prompt
 
@@ -80,6 +82,7 @@ The AI converts the request into structured todo items
 
 Generated todos are automatically added to the UI
 
+```bash
 # Why local AI
 No API keys required
 
@@ -89,6 +92,7 @@ Full data privacy
 
 Works offline
 
+```bash
 # Deployment
 Frontend is deployed using Netlify
 
