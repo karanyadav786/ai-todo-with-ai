@@ -2,7 +2,7 @@
 
 An AI-powered Todo List application that helps users create, organize, and plan tasks using natural language.
 
-This project uses a **local Large Language Model (LLM)** to generate tasks intelligently while keeping all data private and cost-free.
+This project uses a local Large Language Model (LLM) to generate tasks intelligently while keeping all data private and cost-free.
 
 ---
 
@@ -11,8 +11,8 @@ This project uses a **local Large Language Model (LLM)** to generate tasks intel
 **Frontend (Deployed on Netlify)**  
 https://694b145257fa5019da56abdd--ai-todo-with-ai.netlify.app/
 
-**Note**  
-The deployed version demonstrates the user interface and application logic.  
+**Note:**  
+The deployed version demonstrates the UI and logic.  
 AI features work only when the backend is run locally using Ollama.
 
 ---
@@ -47,8 +47,6 @@ ai-todo-with-ai/
 ├── package.json
 └── README.md
 
-yaml
-Copy code
 
 ---
 
@@ -58,22 +56,26 @@ Copy code
 
 ```bash
 npm install
-Start the AI backend
-Make sure Ollama is installed on your system.
 
-bash
-Copy code
+Start the AI backend
+
+Make sure Ollama is installed and running on your system.
+
 ollama run gemma3:4b
 node server.js
+
+
+
 Open the frontend
+
 Open index.html in your browser.
 
 AI Integration Details
+
 This project uses a local AI model via Ollama instead of cloud-based AI APIs.
 
-```bash
+How it works
 
-# How it works
 The user enters a natural language prompt
 
 The backend sends the prompt to the local LLM
@@ -82,8 +84,8 @@ The AI converts the request into structured todo items
 
 Generated todos are automatically added to the UI
 
-```bash
-# Why local AI
+Why local AI
+
 No API keys required
 
 No usage cost
@@ -92,15 +94,16 @@ Full data privacy
 
 Works offline
 
-```bash
-# Deployment
+Deployment
+
 Frontend is deployed using Netlify
 
 Backend (AI server) runs locally using Node.js and Ollama
 
 Because Ollama runs locally, AI features are intentionally not enabled in the public deployment.
 
-# Use Cases
+Use Cases
+
 Daily task management
 
 Workout or study schedules
