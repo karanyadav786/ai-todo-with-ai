@@ -50,6 +50,8 @@ ai-todo-with-ai/
 ├── server.js
 ├── package.json
 └── README.md
+
+---
 ---
 
 Example Prompt
@@ -66,7 +68,8 @@ Day 30: Chapter 30
 
 Do not add any explanation or extra text.
 
---- 
+---
+---
 
 # Example Prompt: 
 
