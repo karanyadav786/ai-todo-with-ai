@@ -17,9 +17,6 @@ AI features work only when the backend is run locally using Ollama.
 
 ---
 
-
---- 
-
 ## Features
 
 - Add and delete todo items
@@ -33,10 +30,10 @@ AI features work only when the backend is run locally using Ollama.
 
 ## Tech Stack
 
-- Frontend: HTML, CSS, JavaScript  
-- Backend: Node.js (server.js)  
-- AI / LLM: Ollama (Local LLM)  
-- Model: gemma3:4b  
+- **Frontend:** HTML, CSS, JavaScript  
+- **Backend:** Node.js (`server.js`)  
+- **AI / LLM:** Ollama (Local LLM)  
+- **Model:** `gemma3:4b`
 
 ---
 
@@ -52,24 +49,7 @@ ai-todo-with-ai/
 └── README.md
 
 ---
----
 
-Example Prompt
-Create a 30-day study plan.
-I want to read Chapter 1 to Chapter 30.
-Assign exactly one chapter per day.
-Format the output strictly like this:
-
-Day 1: Chapter 1
-Day 2: Chapter 2
-Day 3: Chapter 3
-...
-Day 30: Chapter 30
-
-Do not add any explanation or extra text.
-
----
----
 
 # Example Prompt: 
 
