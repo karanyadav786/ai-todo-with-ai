@@ -16,6 +16,19 @@ The deployed version demonstrates the UI and logic.
 AI features work only when the backend is run locally using Ollama.
 
 ---
+## Project Structure
+
+```text
+ai-todo-with-ai/
+├── index.html
+├── style.css
+├── script.js
+├── server.js
+├── package.json
+└── README.md
+
+
+--- 
 
 ## Features
 
@@ -37,19 +50,7 @@ AI features work only when the backend is run locally using Ollama.
 
 ---
 
-## Project Structure
 
-```text
-ai-todo-with-ai/
-├── index.html
-├── style.css
-├── script.js
-├── server.js
-├── package.json
-└── README.md
-
-
---- 
 
 # Example Prompt: 
 
