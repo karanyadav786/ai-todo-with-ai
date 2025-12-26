@@ -53,7 +53,9 @@ ai-todo-with-ai/
 
 Create a 30-day study plan. I want to read Chapter 1 to Chapter 30. Assign exactly one chapter per day. Format the output strictly like this: Day 1: Chapter 1 Day 2: Chapter 2 Day 3: Chapter 3 ... Day 30: Chapter 30 Do not add any explanation or extra text.
 
-AI Output:
+## AI Output
+
+```text
 TODO: Day 1: Chapter 1
 TODO: Day 2: Chapter 2
 TODO: Day 3: Chapter 3
@@ -84,6 +86,7 @@ TODO: Day 27: Chapter 27
 TODO: Day 28: Chapter 28
 TODO: Day 29: Chapter 29
 TODO: Day 30: Chapter 30
+
 
 
 
