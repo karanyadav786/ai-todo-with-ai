@@ -16,16 +16,6 @@ The deployed version demonstrates the UI and logic.
 AI features work only when the backend is run locally using Ollama.
 
 ---
-## Project Structure
-
-```text
-ai-todo-with-ai/
-├── index.html
-├── style.css
-├── script.js
-├── server.js
-├── package.json
-└── README.md
 
 
 --- 
@@ -50,7 +40,33 @@ ai-todo-with-ai/
 
 ---
 
+## Project Structure
 
+```text
+ai-todo-with-ai/
+├── index.html
+├── style.css
+├── script.js
+├── server.js
+├── package.json
+└── README.md
+---
+
+Example Prompt
+Create a 30-day study plan.
+I want to read Chapter 1 to Chapter 30.
+Assign exactly one chapter per day.
+Format the output strictly like this:
+
+Day 1: Chapter 1
+Day 2: Chapter 2
+Day 3: Chapter 3
+...
+Day 30: Chapter 30
+
+Do not add any explanation or extra text.
+
+--- 
 
 # Example Prompt: 
 
