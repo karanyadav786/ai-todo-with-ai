@@ -31,7 +31,7 @@ AI features work only when the backend is run locally using Ollama.
 ## Tech Stack
 
 - Frontend: HTML, CSS, JavaScript  
-- Backend: Node.js, Express  
+- Backend: Node.js (server.js)  
 - AI / LLM: Ollama (Local LLM)  
 - Model: gemma3:4b  
 
@@ -84,6 +84,7 @@ TODO: Day 27: Chapter 27
 TODO: Day 28: Chapter 28
 TODO: Day 29: Chapter 29
 TODO: Day 30: Chapter 30
+
 
 
 ---
